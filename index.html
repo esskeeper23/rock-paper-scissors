@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="game-wins">
+            <p >jugador :
+                <span class="player-wins"></span>
+            </p>
+            <p>el primero en ganar 5 rondas gana</p>
+            <p >computadora : 
+                <span class="computer-wins"></span>
+            </p>
+        </div>
+        <div class="reset">
+            <h2></h2>
+            <button class="reset-btn">
+                <img style="width: 100%;" src="./images/reset.png" alt="">
+            </button>
+        </div>
+        <div class="player-selection-container">
+
+            <h2>jugador</h2>
+
+            <div class="player-selection">
+                <button  class="btn" >
+                    <img id="rock" src="./images/rock.png" alt="">
+                </button>
+                <button class="btn" >
+                    <img id="paper" src="./images/paper.png" alt="">
+                </button>
+                <button class="btn" >
+                    <img id="scissors" src="./images/scissors.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="computer-selection-container">
+            <h2>computadora</h2>
+            <div class="computer-selection">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
